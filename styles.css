@@ -1,0 +1,98 @@
+body{
+    background-color:#F6F6F6;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+
+.navbar {
+    /* barra navegadora total*/
+    background-color: #FFFFFF;
+    display: flex;
+    padding-top: 32px;
+    align-items: center;
+    justify-content: center;
+    /* Rectangle */
+    width: 100%;
+    height: 7.8125rem;
+    
+}
+
+.navbar-items {
+    width: 48rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pesquisar-input {
+    border: none;
+    background-color: #F0F2F5;
+    width: 290px;
+    height:40px;
+    border-radius: 25px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    /* Listagem */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li{
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+
+.container-geral{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48rem;
+    align-items: center;
+
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.container-geral-post{
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 23px;
+    height: 5.6875rem;
+}
+
+.compartilhar-input {
+    background-color: #F0F2F5;
+    padding: 0 6px;
+    border: none;
+    width: 640px;
+    height: 43px;
+    top: 478px;
+    left: 719px;
+    border-radius: 10px;    
+}
+
+.container-geral-comentarios{
+    background-color: #FFFFFF;
+    width: 48rem;
+    height: 29.4375rem;
+
+    
+}
