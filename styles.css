@@ -3,6 +3,14 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    font-family: Inter;
+color:#444444;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
     
 }
 
@@ -25,6 +33,7 @@ body{
     justify-content: space-between;
 }
 .pesquisar-input {
+    padding: 0 6px;
     border: none;
     background-color: #F0F2F5;
     width: 290px;
@@ -83,16 +92,22 @@ body{
     padding: 0 6px;
     border: none;
     width: 640px;
-    height: 43px;
+    height: 40px;
     top: 478px;
     left: 719px;
-    border-radius: 10px;    
+    border-radius: 20px;    
 }
 
 .container-geral-comentarios{
-    background-color: #FFFFFF;
-    width: 48rem;
-    height: 29.4375rem;
 
-    
+    background-color: #FFFFFF;
+    height: 30rem;
+    padding: 0 12px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+   
+}
+.container-comentario-header{
+    padding-top: 23px;
+    display: flex;
 }
